@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.Pane?>
+    <Tab text="Home" >
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="580.0" fitWidth="1018.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../iloveyou.png" />
+               </image>
+            </ImageView>
+            <Text fill="#b2b21a" layoutX="786.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nguyễn Xuân Lành">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#b2b21a" layoutX="786.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Đào Việt Đức">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="519.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM 11" wrappingWidth="240.9560546875">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+                     <stops>
+                        <Stop color="#b932b9" />
+                        <Stop color="#b932b9" offset="0.007662835249042145" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+         </children>
+      </AnchorPane>
+   </content>
+    </Tab>
